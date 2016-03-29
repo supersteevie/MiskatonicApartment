@@ -1,25 +1,18 @@
 fileFormatVersion: 2
 guid: d85a5c2439a2116439681fe648e3ae71
-timeCreated: 1459205510
-licenseType: Free
+timeCreated: 1459213222
+licenseType: Pro
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
   - serializedVersion: 16
-    name: Glass
-    prototypeName: Glass
+    name: VolumetricCloud_1
+    prototypeName: VolumetricCloud
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _ALPHABLEND_ON _METALLICGLOSSMAP _NORMALMAP
-    renderQueue: 3000
+    shaderKeywords: 
+    renderQueue: -1
     lightmapFlags: 5
     inputs:
-    - name: $outputsize
-      value:
-        scalar[0]: 8
-        scalar[1]: 8
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
     - name: $pixelsize
       value:
         scalar[0]: 1
@@ -30,13 +23,6 @@ SubstanceImporter:
     - name: $randomseed
       value:
         scalar[0]: 0
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: Leaves_Pan_Y
-      value:
-        scalar[0]: 41
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -118,11 +104,11 @@ SubstanceImporter:
         data:
           first:
             name: _SrcBlend
-          second: 5
+          second: 1
         data:
           first:
             name: _DstBlend
-          second: 10
+          second: 0
         data:
           first:
             name: _Cutoff
@@ -134,7 +120,7 @@ SubstanceImporter:
         data:
           first:
             name: _ZWrite
-          second: 0
+          second: 1
         data:
           first:
             name: _Glossiness
@@ -158,7 +144,7 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
-          second: 2
+          second: 0
         data:
           first:
             name: _Metallic
@@ -173,161 +159,25 @@ SubstanceImporter:
             name: _Color
           second: {r: 1, g: 1, b: 1, a: 1}
     textureParameters:
-    - name: Glass_basecolor
+    - name: VolumetricCloud_1_diffuse
       alphaSource: 6
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: Glass_normal
+    - name: VolumetricCloud_1_normal
       alphaSource: 0
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: Glass_metallic
-      alphaSource: 7
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
     textureAssignments:
     - shaderProp:
         name: _MainTex
       material: {instanceID: 0}
-      baseUID: 148576608
+      baseUID: 465844236
     - shaderProp:
         name: _BumpMap
       material: {instanceID: 0}
-      baseUID: 148576610
-    - shaderProp:
-        name: _MetallicGlossMap
-      material: {instanceID: 0}
-      baseUID: 148576614
-    buildTargetSettings:
-    - serializedVersion: 2
-      buildTarget: 
-      textureWidth: 512
-      textureHeight: 512
-      textureFormat: 0
-      loadingBehavior: 1
-  - serializedVersion: 16
-    name: MiskatonicFire
-    prototypeName: MiskatonicFire
-    shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
-    renderQueue: 3000
-    lightmapFlags: 5
-    inputs:
-    - name: $randomseed
-      value:
-        scalar[0]: 9566
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $pixelsize
-      value:
-        scalar[0]: 1
-        scalar[1]: 1
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    materialInformation:
-      serializedVersion: 5
-      offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      generateMipmaps: 1
-      generateAllOutputs: 0
-      animationUpdateRate: 0
-    materialProperties:
-      serializedVersion: 2
-      texEnvs:
-        data:
-          first:
-            name: _MainTex
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-      floats:
-        data:
-          first:
-            name: _SrcBlend
-          second: 1
-        data:
-          first:
-            name: _DstBlend
-          second: 0
-        data:
-          first:
-            name: _Cutoff
-          second: 0.5
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
-        data:
-          first:
-            name: _ZWrite
-          second: 1
-        data:
-          first:
-            name: _Glossiness
-          second: 0.5
-        data:
-          first:
-            name: _BumpScale
-          second: 1
-        data:
-          first:
-            name: _OcclusionStrength
-          second: 1
-        data:
-          first:
-            name: _DetailNormalMapScale
-          second: 1
-        data:
-          first:
-            name: _UVSec
-          second: 0
-        data:
-          first:
-            name: _Mode
-          second: 0
-        data:
-          first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
-            name: _InvFade
-          second: 3
-      colors:
-        data:
-          first:
-            name: _EmissionColor
-          second: {r: 0, g: 0, b: 0, a: 1}
-        data:
-          first:
-            name: _Color
-          second: {r: 1, g: 1, b: 1, a: 1}
-        data:
-          first:
-            name: _TintColor
-          second: {r: 0.14705884, g: 0.1146194, b: 0.1146194, a: 1}
-        data:
-          first:
-            name: _EmisColor
-          second: {r: 0.2, g: 0.2, b: 0.2, a: 0}
-    textureParameters:
-    - name: MiskatonicFire_diffuse
-      alphaSource: 6
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    textureAssignments:
-    - shaderProp:
-        name: _MainTex
-      material: {instanceID: 0}
-      baseUID: 901250620
+      baseUID: 465845176
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
@@ -529,13 +379,147 @@ SubstanceImporter:
       textureFormat: 0
       loadingBehavior: 1
   - serializedVersion: 16
-    name: VolumetricCloud_1
-    prototypeName: VolumetricCloud
-    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    name: MiskatonicFire
+    prototypeName: MiskatonicFire
+    shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: 
-    renderQueue: -1
+    renderQueue: 3000
     lightmapFlags: 5
     inputs:
+    - name: $randomseed
+      value:
+        scalar[0]: 2063
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $pixelsize
+      value:
+        scalar[0]: 1
+        scalar[1]: 1
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+        data:
+          first:
+            name: _MainTex
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+      floats:
+        data:
+          first:
+            name: _SrcBlend
+          second: 1
+        data:
+          first:
+            name: _DstBlend
+          second: 0
+        data:
+          first:
+            name: _Cutoff
+          second: 0.5
+        data:
+          first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
+            name: _ZWrite
+          second: 1
+        data:
+          first:
+            name: _Glossiness
+          second: 0.5
+        data:
+          first:
+            name: _BumpScale
+          second: 1
+        data:
+          first:
+            name: _OcclusionStrength
+          second: 1
+        data:
+          first:
+            name: _DetailNormalMapScale
+          second: 1
+        data:
+          first:
+            name: _UVSec
+          second: 0
+        data:
+          first:
+            name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
+            name: _InvFade
+          second: 3
+      colors:
+        data:
+          first:
+            name: _EmissionColor
+          second: {r: 0, g: 0, b: 0, a: 1}
+        data:
+          first:
+            name: _Color
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _TintColor
+          second: {r: 0.14705884, g: 0.1146194, b: 0.1146194, a: 1}
+        data:
+          first:
+            name: _EmisColor
+          second: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    textureParameters:
+    - name: MiskatonicFire_diffuse
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 901250620
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      loadingBehavior: 1
+  - serializedVersion: 16
+    name: Glass
+    prototypeName: Glass
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _ALPHABLEND_ON _METALLICGLOSSMAP _NORMALMAP
+    renderQueue: 3000
+    lightmapFlags: 5
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     - name: $pixelsize
       value:
         scalar[0]: 1
@@ -546,6 +530,13 @@ SubstanceImporter:
     - name: $randomseed
       value:
         scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Leaves_Pan_Y
+      value:
+        scalar[0]: 41
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -627,11 +618,11 @@ SubstanceImporter:
         data:
           first:
             name: _SrcBlend
-          second: 1
+          second: 5
         data:
           first:
             name: _DstBlend
-          second: 0
+          second: 10
         data:
           first:
             name: _Cutoff
@@ -643,7 +634,7 @@ SubstanceImporter:
         data:
           first:
             name: _ZWrite
-          second: 1
+          second: 0
         data:
           first:
             name: _Glossiness
@@ -667,7 +658,7 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
-          second: 0
+          second: 2
         data:
           first:
             name: _Metallic
@@ -682,13 +673,18 @@ SubstanceImporter:
             name: _Color
           second: {r: 1, g: 1, b: 1, a: 1}
     textureParameters:
-    - name: VolumetricCloud_1_diffuse
+    - name: Glass_basecolor
       alphaSource: 6
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: VolumetricCloud_1_normal
+    - name: Glass_normal
       alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Glass_metallic
+      alphaSource: 7
       filterMode: 1
       aniso: 1
       wrapMode: 0
@@ -696,11 +692,15 @@ SubstanceImporter:
     - shaderProp:
         name: _MainTex
       material: {instanceID: 0}
-      baseUID: 465844236
+      baseUID: 148576608
     - shaderProp:
         name: _BumpMap
       material: {instanceID: 0}
-      baseUID: 465845176
+      baseUID: 148576610
+    - shaderProp:
+        name: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 148576614
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
