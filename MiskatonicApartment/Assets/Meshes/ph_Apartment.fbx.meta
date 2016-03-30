@@ -34,6 +34,12 @@ ModelImporter:
     100052: pPlane2
     100054: pPlane3
     100056: pSphere1
+    100058: coffeeTable_bracket_mesh
+    100060: coffeeTable_glass_mesh
+    100062: frplace_grate_mesh
+    100064: frplace_hood_mesh
+    100066: frplace_shield_mesh
+    100068: pPipe3
     400000: floor_mesh
     400002: //RootNode
     400004: phCoffeeTable_mesh
@@ -63,6 +69,12 @@ ModelImporter:
     400052: pPlane2
     400054: pPlane3
     400056: pSphere1
+    400058: coffeeTable_bracket_mesh
+    400060: coffeeTable_glass_mesh
+    400062: frplace_grate_mesh
+    400064: frplace_hood_mesh
+    400066: frplace_shield_mesh
+    400068: pPipe3
     2300000: floor_mesh
     2300002: phCoffeeTable_mesh
     2300004: phRug_mesh
@@ -91,6 +103,12 @@ ModelImporter:
     2300050: pPlane2
     2300052: pPlane3
     2300054: pSphere1
+    2300056: coffeeTable_bracket_mesh
+    2300058: coffeeTable_glass_mesh
+    2300060: frplace_grate_mesh
+    2300062: frplace_hood_mesh
+    2300064: frplace_shield_mesh
+    2300066: pPipe3
     3300000: floor_mesh
     3300002: phCoffeeTable_mesh
     3300004: phRug_mesh
@@ -119,6 +137,12 @@ ModelImporter:
     3300050: pPlane2
     3300052: pPlane3
     3300054: pSphere1
+    3300056: coffeeTable_bracket_mesh
+    3300058: coffeeTable_glass_mesh
+    3300060: frplace_grate_mesh
+    3300062: frplace_hood_mesh
+    3300064: frplace_shield_mesh
+    3300066: pPipe3
     4300000: floor_mesh
     4300002: phWickerChair_mesh1
     4300004: phWickerChair_mesh2
@@ -147,6 +171,12 @@ ModelImporter:
     4300050: pCylinder7
     4300052: pPlane3
     4300054: pCylinder8
+    4300056: coffeeTable_bracket_mesh
+    4300058: coffeeTable_glass_mesh
+    4300060: frplace_grate_mesh
+    4300062: frplace_shield_mesh
+    4300064: frplace_hood_mesh
+    4300066: pPipe3
   materials:
     importMaterials: 0
     materialName: 0
