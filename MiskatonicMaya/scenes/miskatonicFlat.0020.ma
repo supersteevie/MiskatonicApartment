@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: miskatonicFlat.0020.ma
-//Last modified: Sun, Apr 03, 2016 03:00:54 PM
+//Last modified: Sun, Apr 03, 2016 10:45:37 PM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "gameFbxExporter" "gameFbxExporter" "1.0";
@@ -16,8 +16,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "1CAB4FF6-2943-42B2-43A7-3D9E5CAC0078";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -28.572848951719287 -5.8554626672922057 27.292269155177195 ;
-	setAttr ".r" -type "double3" 2855.0616444559087 2933.399999999966 5.3344884036319368e-015 ;
+	setAttr ".t" -type "double3" -32.191404647721242 -4.628164888131999 29.470442263844578 ;
+	setAttr ".r" -type "double3" 2847.2616444558757 2906.5999999999203 -8.8926343756526734e-016 ;
 	setAttr ".rp" -type "double3" 4.4408920985006262e-015 0 0 ;
 	setAttr ".rpt" -type "double3" 34.992901772527844 11.874478013492977 -20.868017385359831 ;
 createNode camera -s -n "perspShape" -p "persp";
