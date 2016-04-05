@@ -40,6 +40,42 @@ ModelImporter:
     100064: frplace_hood_mesh
     100066: frplace_shield_mesh
     100068: pPipe3
+    100070: bookStand_mesh
+    100072: column1_mesh
+    100074: column2_mesh
+    100076: column3_mesh
+    100078: column4_mesh
+    100080: curtainRod_mesh
+    100082: Curtains
+    100084: curtains1_mesh
+    100086: curtains2_mesh
+    100088: cushionedChair_mesh
+    100090: decorativeChest_mesh
+    100092: endtable_mesh
+    100094: fireplaceGrate_mesh
+    100096: fireplaceHood_mesh
+    100098: fireplaceShield_mesh
+    100100: fireplaceWall_mesh
+    100102: globe_mesh
+    100104: hearth_mesh
+    100106: lampVeil_mesh
+    100108: parcelLarge_mesh
+    100110: parcelLeather_mesh
+    100112: parcelSmall_mesh
+    100114: photoframe_mesh
+    100116: plantPot_mesh
+    100118: rug_mesh
+    100120: smallbox_mesh
+    100122: smallLuggage_mesh
+    100124: tableLamp_mesh
+    100126: top_banister_mesh
+    100128: whickerChair_mesh1
+    100130: whickerChair_mesh2
+    100132: Window
+    100134: WindowAlcove_mesh
+    100136: windowGlass1_mesh
+    100138: windowGlass2_mesh
+    100140: windowGlass3_mesh
     400000: floor_mesh
     400002: //RootNode
     400004: phCoffeeTable_mesh
@@ -75,6 +111,42 @@ ModelImporter:
     400064: frplace_hood_mesh
     400066: frplace_shield_mesh
     400068: pPipe3
+    400070: bookStand_mesh
+    400072: column1_mesh
+    400074: column2_mesh
+    400076: column3_mesh
+    400078: column4_mesh
+    400080: curtainRod_mesh
+    400082: Curtains
+    400084: curtains1_mesh
+    400086: curtains2_mesh
+    400088: cushionedChair_mesh
+    400090: decorativeChest_mesh
+    400092: endtable_mesh
+    400094: fireplaceGrate_mesh
+    400096: fireplaceHood_mesh
+    400098: fireplaceShield_mesh
+    400100: fireplaceWall_mesh
+    400102: globe_mesh
+    400104: hearth_mesh
+    400106: lampVeil_mesh
+    400108: parcelLarge_mesh
+    400110: parcelLeather_mesh
+    400112: parcelSmall_mesh
+    400114: photoframe_mesh
+    400116: plantPot_mesh
+    400118: rug_mesh
+    400120: smallbox_mesh
+    400122: smallLuggage_mesh
+    400124: tableLamp_mesh
+    400126: top_banister_mesh
+    400128: whickerChair_mesh1
+    400130: whickerChair_mesh2
+    400132: Window
+    400134: WindowAlcove_mesh
+    400136: windowGlass1_mesh
+    400138: windowGlass2_mesh
+    400140: windowGlass3_mesh
     2300000: floor_mesh
     2300002: phCoffeeTable_mesh
     2300004: phRug_mesh
@@ -109,6 +181,40 @@ ModelImporter:
     2300062: frplace_hood_mesh
     2300064: frplace_shield_mesh
     2300066: pPipe3
+    2300068: bookStand_mesh
+    2300070: column1_mesh
+    2300072: column2_mesh
+    2300074: column3_mesh
+    2300076: column4_mesh
+    2300078: curtainRod_mesh
+    2300080: curtains1_mesh
+    2300082: curtains2_mesh
+    2300084: cushionedChair_mesh
+    2300086: decorativeChest_mesh
+    2300088: endtable_mesh
+    2300090: fireplaceGrate_mesh
+    2300092: fireplaceHood_mesh
+    2300094: fireplaceShield_mesh
+    2300096: fireplaceWall_mesh
+    2300098: globe_mesh
+    2300100: hearth_mesh
+    2300102: lampVeil_mesh
+    2300104: parcelLarge_mesh
+    2300106: parcelLeather_mesh
+    2300108: parcelSmall_mesh
+    2300110: photoframe_mesh
+    2300112: plantPot_mesh
+    2300114: rug_mesh
+    2300116: smallbox_mesh
+    2300118: smallLuggage_mesh
+    2300120: tableLamp_mesh
+    2300122: top_banister_mesh
+    2300124: whickerChair_mesh1
+    2300126: whickerChair_mesh2
+    2300128: WindowAlcove_mesh
+    2300130: windowGlass1_mesh
+    2300132: windowGlass2_mesh
+    2300134: windowGlass3_mesh
     3300000: floor_mesh
     3300002: phCoffeeTable_mesh
     3300004: phRug_mesh
@@ -143,6 +249,40 @@ ModelImporter:
     3300062: frplace_hood_mesh
     3300064: frplace_shield_mesh
     3300066: pPipe3
+    3300068: bookStand_mesh
+    3300070: column1_mesh
+    3300072: column2_mesh
+    3300074: column3_mesh
+    3300076: column4_mesh
+    3300078: curtainRod_mesh
+    3300080: curtains1_mesh
+    3300082: curtains2_mesh
+    3300084: cushionedChair_mesh
+    3300086: decorativeChest_mesh
+    3300088: endtable_mesh
+    3300090: fireplaceGrate_mesh
+    3300092: fireplaceHood_mesh
+    3300094: fireplaceShield_mesh
+    3300096: fireplaceWall_mesh
+    3300098: globe_mesh
+    3300100: hearth_mesh
+    3300102: lampVeil_mesh
+    3300104: parcelLarge_mesh
+    3300106: parcelLeather_mesh
+    3300108: parcelSmall_mesh
+    3300110: photoframe_mesh
+    3300112: plantPot_mesh
+    3300114: rug_mesh
+    3300116: smallbox_mesh
+    3300118: smallLuggage_mesh
+    3300120: tableLamp_mesh
+    3300122: top_banister_mesh
+    3300124: whickerChair_mesh1
+    3300126: whickerChair_mesh2
+    3300128: WindowAlcove_mesh
+    3300130: windowGlass1_mesh
+    3300132: windowGlass2_mesh
+    3300134: windowGlass3_mesh
     4300000: floor_mesh
     4300002: phWickerChair_mesh1
     4300004: phWickerChair_mesh2
@@ -177,6 +317,40 @@ ModelImporter:
     4300062: frplace_shield_mesh
     4300064: frplace_hood_mesh
     4300066: pPipe3
+    4300068: curtainRod_mesh
+    4300070: curtains2_mesh
+    4300072: curtains1_mesh
+    4300074: WindowAlcove_mesh
+    4300076: windowGlass1_mesh
+    4300078: windowGlass2_mesh
+    4300080: windowGlass3_mesh
+    4300082: column1_mesh
+    4300084: column2_mesh
+    4300086: column3_mesh
+    4300088: column4_mesh
+    4300090: top_banister_mesh
+    4300092: globe_mesh
+    4300094: photoframe_mesh
+    4300096: lampVeil_mesh
+    4300098: whickerChair_mesh2
+    4300100: whickerChair_mesh1
+    4300102: rug_mesh
+    4300104: tableLamp_mesh
+    4300106: parcelLarge_mesh
+    4300108: parcelSmall_mesh
+    4300110: decorativeChest_mesh
+    4300112: parcelLeather_mesh
+    4300114: bookStand_mesh
+    4300116: smallLuggage_mesh
+    4300118: smallbox_mesh
+    4300120: fireplaceHood_mesh
+    4300122: fireplaceShield_mesh
+    4300124: fireplaceGrate_mesh
+    4300126: hearth_mesh
+    4300128: fireplaceWall_mesh
+    4300130: plantPot_mesh
+    4300132: endtable_mesh
+    4300134: cushionedChair_mesh
   materials:
     importMaterials: 0
     materialName: 0
@@ -206,7 +380,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
