@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5caba297dff01485cbc320f69d1880cb
-timeCreated: 1460401219
-licenseType: Free
+timeCreated: 1460420017
+licenseType: Pro
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
@@ -9,7 +9,7 @@ SubstanceImporter:
     name: fabric_carpet
     prototypeName: fabric_suit_vintage
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -176,7 +176,7 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: fabric_variations
       value:
-        scalar[0]: 0.25
+        scalar[0]: 0.38
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -190,28 +190,28 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: pattern_type
       value:
-        scalar[0]: 1
+        scalar[0]: 0
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: pattern_tile
       value:
-        scalar[0]: 2
+        scalar[0]: 2.75
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: fabric_warp
       value:
-        scalar[0]: 0.5
+        scalar[0]: 0.53
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: line_intensity
       value:
-        scalar[0]: 0.5
+        scalar[0]: 0.17
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -232,7 +232,7 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: dust_intensity
       value:
-        scalar[0]: 0
+        scalar[0]: 0.33
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -246,7 +246,7 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: hole_size
       value:
-        scalar[0]: 0
+        scalar[0]: 0.05
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -261,7 +261,7 @@ SubstanceImporter:
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
+      scale: {x: 5, y: 5}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 0
@@ -273,14 +273,14 @@ SubstanceImporter:
             name: _MainTex
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 5, y: 5}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 5, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -294,28 +294,28 @@ SubstanceImporter:
             name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 5, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 5, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _OcclusionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 5, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _EmissionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 5, y: 5}
             offset: {x: 0, y: 0}
         data:
           first:

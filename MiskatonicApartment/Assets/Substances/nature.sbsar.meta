@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: ed17e3076de1c4a6eadb54c3397bc76f
-timeCreated: 1460400796
-licenseType: Free
+timeCreated: 1460420340
+licenseType: Pro
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
@@ -29,14 +29,14 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: Damage
       value:
-        scalar[0]: 0
+        scalar[0]: 0.37
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: Age
       value:
-        scalar[0]: 0.883
+        scalar[0]: 0.95
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -77,7 +77,7 @@ SubstanceImporter:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 9, y: 1}
+            scale: {x: 9, y: 9}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -91,14 +91,14 @@ SubstanceImporter:
             name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 9, y: 1}
+            scale: {x: 9, y: 9}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 9, y: 1}
+            scale: {x: 9, y: 9}
             offset: {x: 0, y: 0}
         data:
           first:
