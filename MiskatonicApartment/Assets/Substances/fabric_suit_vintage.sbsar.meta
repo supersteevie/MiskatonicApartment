@@ -1,13 +1,14 @@
 fileFormatVersion: 2
 guid: 5caba297dff01485cbc320f69d1880cb
-timeCreated: 1460420017
-licenseType: Pro
+timeCreated: 1460847272
+licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
   - serializedVersion: 16
     name: fabric_carpet
     prototypeName: fabric_suit_vintage
+    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
@@ -446,6 +447,7 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_chairs
     prototypeName: fabric_suit_vintage
+    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
@@ -884,8 +886,9 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_curtains
     prototypeName: fabric_suit_vintage
+    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -1239,7 +1242,7 @@ SubstanceImporter:
         data:
           first:
             name: _Parallax
-          second: 0.02
+          second: 0.0185
         data:
           first:
             name: _OcclusionStrength
@@ -1322,6 +1325,7 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_recliner
     prototypeName: fabric_suit_vintage
+    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1

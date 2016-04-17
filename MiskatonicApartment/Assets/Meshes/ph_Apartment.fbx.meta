@@ -105,6 +105,12 @@ ModelImporter:
     100194: windowGlass2_mesh1
     100196: windowGlass2_mesh2
     100198: windowGlass3_mesh1
+    100200: curtainRod_mesh2
+    100202: curtainRod_mesh3
+    100204: curtainRod_mesh4
+    100206: curtainRod_mesh5
+    100208: curtainRod_mesh6
+    100210: curtainRod_mesh7
     400000: floor_mesh
     400002: //RootNode
     400004: phCoffeeTable_mesh
@@ -205,6 +211,12 @@ ModelImporter:
     400194: windowGlass2_mesh1
     400196: windowGlass2_mesh2
     400198: windowGlass3_mesh1
+    400200: curtainRod_mesh2
+    400202: curtainRod_mesh3
+    400204: curtainRod_mesh4
+    400206: curtainRod_mesh5
+    400208: curtainRod_mesh6
+    400210: curtainRod_mesh7
     2300000: floor_mesh
     2300002: phCoffeeTable_mesh
     2300004: phRug_mesh
@@ -301,6 +313,12 @@ ModelImporter:
     2300186: windowGlass2_mesh1
     2300188: windowGlass2_mesh2
     2300190: windowGlass3_mesh1
+    2300192: curtainRod_mesh2
+    2300194: curtainRod_mesh3
+    2300196: curtainRod_mesh4
+    2300198: curtainRod_mesh5
+    2300200: curtainRod_mesh6
+    2300202: curtainRod_mesh7
     3300000: floor_mesh
     3300002: phCoffeeTable_mesh
     3300004: phRug_mesh
@@ -397,6 +415,12 @@ ModelImporter:
     3300186: windowGlass2_mesh1
     3300188: windowGlass2_mesh2
     3300190: windowGlass3_mesh1
+    3300192: curtainRod_mesh2
+    3300194: curtainRod_mesh3
+    3300196: curtainRod_mesh4
+    3300198: curtainRod_mesh5
+    3300200: curtainRod_mesh6
+    3300202: curtainRod_mesh7
     4300000: floor_mesh
     4300002: phWickerChair_mesh1
     4300004: phWickerChair_mesh2
@@ -492,6 +516,12 @@ ModelImporter:
     4300184: curtainsNew_02_mesh2
     4300186: door_01_mesh
     4300188: door_02_mesh
+    4300190: curtainRod_mesh2
+    4300192: curtainRod_mesh3
+    4300194: curtainRod_mesh4
+    4300196: curtainRod_mesh5
+    4300198: curtainRod_mesh6
+    4300200: curtainRod_mesh7
   materials:
     importMaterials: 0
     materialName: 0
