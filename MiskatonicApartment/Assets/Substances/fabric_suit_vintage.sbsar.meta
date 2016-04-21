@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5caba297dff01485cbc320f69d1880cb
-timeCreated: 1460847272
+timeCreated: 1461198191
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -8,7 +8,6 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_carpet
     prototypeName: fabric_suit_vintage
-    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
@@ -447,7 +446,6 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_chairs
     prototypeName: fabric_suit_vintage
-    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
@@ -886,7 +884,6 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_curtains
     prototypeName: fabric_suit_vintage
-    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
@@ -1140,7 +1137,7 @@ SubstanceImporter:
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
+      scale: {x: 2, y: 2}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 0
@@ -1152,14 +1149,14 @@ SubstanceImporter:
             name: _MainTex
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 2, y: 2}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 2, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1173,28 +1170,28 @@ SubstanceImporter:
             name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 2, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 2, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _OcclusionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 2, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _EmissionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 2, y: 2}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1325,7 +1322,6 @@ SubstanceImporter:
   - serializedVersion: 16
     name: fabric_recliner
     prototypeName: fabric_suit_vintage
-    shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1

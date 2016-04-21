@@ -522,6 +522,72 @@ ModelImporter:
     4300196: curtainRod_mesh5
     4300198: curtainRod_mesh6
     4300200: curtainRod_mesh7
+    6400000: bookStand_mesh
+    6400002: ceiling_mesh
+    6400004: coffeeTable_fram_mesh
+    6400006: coffeeTable_glass_mesh 1
+    6400008: column1_mesh
+    6400010: column1_mesh1
+    6400012: column1_mesh2
+    6400014: column1_mesh3
+    6400016: column1_mesh4
+    6400018: column1_mesh5
+    6400020: column1_mesh6
+    6400022: column1_mesh7
+    6400024: curtainRod_mesh
+    6400026: curtainRod_mesh1
+    6400028: curtainRod_mesh2
+    6400030: curtainRod_mesh3
+    6400032: curtainRod_mesh4
+    6400034: curtainRod_mesh5
+    6400036: curtainRod_mesh6
+    6400038: curtainRod_mesh7
+    6400040: curtains1_mesh
+    6400042: curtains2_mesh
+    6400044: curtainsNew_01_mesh
+    6400046: curtainsNew_01_mesh1
+    6400048: curtainsNew_02_mesh1
+    6400050: curtainsNew_02_mesh2
+    6400052: cushionedChair_mesh
+    6400054: decorativeChest_mesh
+    6400056: door_01_mesh
+    6400058: door_02_mesh
+    6400060: endtable_mesh
+    6400062: fireplaceGrate_mesh
+    6400064: fireplaceHood_mesh
+    6400066: fireplaceShield_mesh
+    6400068: fireplaceWall_mesh
+    6400070: floor_mesh
+    6400072: floor_mesh1
+    6400074: floorTile_mesh
+    6400076: globe_mesh
+    6400078: hearth_mesh
+    6400080: lampVeil_mesh
+    6400082: parcelLarge_mesh
+    6400084: parcelLeather_mesh
+    6400086: parcelSmall_mesh
+    6400088: photoframe_mesh
+    6400090: plantPot_mesh
+    6400092: rug_mesh
+    6400094: smallbox_mesh
+    6400096: smallLuggage_mesh
+    6400098: tableLamp_mesh
+    6400100: top_banister_mesh
+    6400102: wall_01_mesh
+    6400104: wall_02_mesh
+    6400106: wall_03_mesh
+    6400108: whickerChair_mesh1
+    6400110: whickerChair_mesh2
+    6400112: WindowAlcove_mesh
+    6400114: WindowAlcove_mesh5
+    6400116: WindowAlcove_mesh6
+    6400118: windowGlass1_mesh
+    6400120: windowGlass1_mesh1
+    6400122: windowGlass2_mesh
+    6400124: windowGlass2_mesh1
+    6400126: windowGlass2_mesh2
+    6400128: windowGlass3_mesh
+    6400130: windowGlass3_mesh1
   materials:
     importMaterials: 0
     materialName: 0
@@ -548,7 +614,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 100
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
