@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fda4615d47b478345be49438d02a2014
-timeCreated: 1461196821
+timeCreated: 1461280033
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -210,7 +210,7 @@ SubstanceImporter:
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
+      scale: {x: 3, y: 3}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 0
@@ -221,7 +221,7 @@ SubstanceImporter:
           first:
             name: _MainTex
           second:
-            texture: {fileID: 2800000, guid: b14ffa8704b4a9d41a6d2b58931d3c52, type: 3}
+            texture: {instanceID: 0}
             scale: {x: 3, y: 3}
             offset: {x: 0, y: 0}
         data:
@@ -229,7 +229,7 @@ SubstanceImporter:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 3, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -243,7 +243,7 @@ SubstanceImporter:
             name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 3, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -356,6 +356,10 @@ SubstanceImporter:
       wrapMode: 0
     textureAssignments:
     - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 3780671861
+    - shaderProp:
         name: _BumpMap
       material: {instanceID: 0}
       baseUID: 3780671863
@@ -363,400 +367,6 @@ SubstanceImporter:
         name: _MetallicGlossMap
       material: {instanceID: 0}
       baseUID: 3780671859
-    buildTargetSettings:
-    - serializedVersion: 2
-      buildTarget: 
-      textureWidth: 512
-      textureHeight: 512
-      textureFormat: 0
-      loadingBehavior: 1
-  - serializedVersion: 16
-    name: Frames
-    prototypeName: Frames
-    shaderName: 
-    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
-    renderQueue: -1
-    lightmapFlags: 5
-    inputs:
-    - name: $outputsize
-      value:
-        scalar[0]: 8
-        scalar[1]: 8
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $pixelsize
-      value:
-        scalar[0]: 1
-        scalar[1]: 1
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $randomseed
-      value:
-        scalar[0]: 0
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    materialInformation:
-      serializedVersion: 5
-      offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      generateMipmaps: 1
-      generateAllOutputs: 0
-      animationUpdateRate: 0
-    materialProperties:
-      serializedVersion: 2
-      texEnvs:
-        data:
-          first:
-            name: _MainTex
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _BumpMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailNormalMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _ParallaxMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _OcclusionMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _EmissionMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailMask
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailAlbedoMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-      floats:
-        data:
-          first:
-            name: _SrcBlend
-          second: 1
-        data:
-          first:
-            name: _DstBlend
-          second: 0
-        data:
-          first:
-            name: _Cutoff
-          second: 0.5
-        data:
-          first:
-            name: _ZWrite
-          second: 1
-        data:
-          first:
-            name: _Glossiness
-          second: 0.5
-        data:
-          first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
-            name: _BumpScale
-          second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
-        data:
-          first:
-            name: _OcclusionStrength
-          second: 1
-        data:
-          first:
-            name: _DetailNormalMapScale
-          second: 1
-        data:
-          first:
-            name: _UVSec
-          second: 0
-        data:
-          first:
-            name: _Mode
-          second: 0
-      colors:
-        data:
-          first:
-            name: _EmissionColor
-          second: {r: 0, g: 0, b: 0, a: 1}
-        data:
-          first:
-            name: _Color
-          second: {r: 1, g: 1, b: 1, a: 1}
-    textureParameters:
-    - name: Frames_basecolor
-      alphaSource: 6
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Frames_normal
-      alphaSource: 0
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: Frames_metallic
-      alphaSource: 7
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    textureAssignments:
-    - shaderProp:
-        name: _MainTex
-      material: {instanceID: 0}
-      baseUID: 3183224946
-    - shaderProp:
-        name: _BumpMap
-      material: {instanceID: 0}
-      baseUID: 3183224944
-    - shaderProp:
-        name: _MetallicGlossMap
-      material: {instanceID: 0}
-      baseUID: 3183224948
-    buildTargetSettings:
-    - serializedVersion: 2
-      buildTarget: 
-      textureWidth: 512
-      textureHeight: 512
-      textureFormat: 0
-      loadingBehavior: 1
-  - serializedVersion: 16
-    name: GlassTable
-    prototypeName: GlassTable
-    shaderName: 
-    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: 
-    renderQueue: -1
-    lightmapFlags: 5
-    inputs:
-    - name: $outputsize
-      value:
-        scalar[0]: 8
-        scalar[1]: 8
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $pixelsize
-      value:
-        scalar[0]: 1
-        scalar[1]: 1
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    - name: $randomseed
-      value:
-        scalar[0]: 0
-        scalar[1]: 0
-        scalar[2]: 0
-        scalar[3]: 0
-        texture: {instanceID: 0}
-    materialInformation:
-      serializedVersion: 5
-      offset: {x: 0, y: 0}
-      scale: {x: 1, y: 1}
-      generateMipmaps: 1
-      generateAllOutputs: 0
-      animationUpdateRate: 0
-    materialProperties:
-      serializedVersion: 2
-      texEnvs:
-        data:
-          first:
-            name: _MainTex
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _BumpMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailNormalMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _ParallaxMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _OcclusionMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _EmissionMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailMask
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailAlbedoMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-      floats:
-        data:
-          first:
-            name: _SrcBlend
-          second: 1
-        data:
-          first:
-            name: _DstBlend
-          second: 0
-        data:
-          first:
-            name: _Cutoff
-          second: 0.5
-        data:
-          first:
-            name: _ZWrite
-          second: 1
-        data:
-          first:
-            name: _Glossiness
-          second: 0.5
-        data:
-          first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
-            name: _BumpScale
-          second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
-        data:
-          first:
-            name: _OcclusionStrength
-          second: 1
-        data:
-          first:
-            name: _DetailNormalMapScale
-          second: 1
-        data:
-          first:
-            name: _UVSec
-          second: 0
-        data:
-          first:
-            name: _Mode
-          second: 0
-      colors:
-        data:
-          first:
-            name: _EmissionColor
-          second: {r: 0, g: 0, b: 0, a: 1}
-        data:
-          first:
-            name: _Color
-          second: {r: 1, g: 1, b: 1, a: 1}
-    textureParameters:
-    - name: GlassTable_basecolor
-      alphaSource: 6
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: GlassTable_normal
-      alphaSource: 0
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    - name: GlassTable_metallic
-      alphaSource: 7
-      filterMode: 1
-      aniso: 1
-      wrapMode: 0
-    textureAssignments:
-    - shaderProp:
-        name: _MainTex
-      material: {instanceID: 0}
-      baseUID: 926783763
-    - shaderProp:
-        name: _BumpMap
-      material: {instanceID: 0}
-      baseUID: 926783761
-    - shaderProp:
-        name: _MetallicGlossMap
-      material: {instanceID: 0}
-      baseUID: 926783765
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
@@ -1159,12 +769,12 @@ SubstanceImporter:
       textureFormat: 0
       loadingBehavior: 1
   - serializedVersion: 16
-    name: Recliner
-    prototypeName: Recliner
+    name: ScratchedGlass
+    prototypeName: ScratchedGlass
     shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP
-    renderQueue: -1
+    shaderKeywords: _ALPHAPREMULTIPLY_ON _METALLICGLOSSMAP _NORMALMAP
+    renderQueue: 3000
     lightmapFlags: 5
     inputs:
     - name: $outputsize
@@ -1191,7 +801,7 @@ SubstanceImporter:
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 12, y: 12}
+      scale: {x: 6, y: 3}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 0
@@ -1203,14 +813,14 @@ SubstanceImporter:
             name: _MainTex
           second:
             texture: {instanceID: 0}
-            scale: {x: 12, y: 12}
+            scale: {x: 6, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 12, y: 1}
+            scale: {x: 6, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1224,7 +834,7 @@ SubstanceImporter:
             name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 12, y: 1}
+            scale: {x: 6, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1245,7 +855,7 @@ SubstanceImporter:
             name: _EmissionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 12, y: 12}
+            scale: {x: 6, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1269,7 +879,7 @@ SubstanceImporter:
         data:
           first:
             name: _DstBlend
-          second: 0
+          second: 10
         data:
           first:
             name: _Cutoff
@@ -1277,7 +887,7 @@ SubstanceImporter:
         data:
           first:
             name: _ZWrite
-          second: 1
+          second: 0
         data:
           first:
             name: _Glossiness
@@ -1289,7 +899,7 @@ SubstanceImporter:
         data:
           first:
             name: _BumpScale
-          second: 1
+          second: 0.23
         data:
           first:
             name: _Parallax
@@ -1309,7 +919,7 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
-          second: 0
+          second: 3
       colors:
         data:
           first:
@@ -1320,17 +930,17 @@ SubstanceImporter:
             name: _Color
           second: {r: 1, g: 1, b: 1, a: 1}
     textureParameters:
-    - name: Recliner_diffuse
+    - name: ScratchedGlass_basecolor
       alphaSource: 6
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: Recliner_normal
+    - name: ScratchedGlass_normal
       alphaSource: 0
       filterMode: 1
       aniso: 1
       wrapMode: 0
-    - name: Recliner_metallic
+    - name: ScratchedGlass_metallic
       alphaSource: 7
       filterMode: 1
       aniso: 1
@@ -1339,15 +949,15 @@ SubstanceImporter:
     - shaderProp:
         name: _MainTex
       material: {instanceID: 0}
-      baseUID: 1365757287
+      baseUID: 2087177595
     - shaderProp:
         name: _BumpMap
       material: {instanceID: 0}
-      baseUID: 1365757285
+      baseUID: 2087177593
     - shaderProp:
         name: _MetallicGlossMap
       material: {instanceID: 0}
-      baseUID: 1402927943
+      baseUID: 2087177597
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
