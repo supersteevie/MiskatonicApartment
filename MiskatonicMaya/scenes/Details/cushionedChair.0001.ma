@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: cushionedChair.ma
-//Last modified: Tue, Apr 26, 2016 11:22:16 AM
+//Name: cushionedChair.0001.ma
+//Last modified: Tue, Apr 26, 2016 11:30:14 AM
 //Codeset: 1252
 requires maya "2016";
 requires "stereoCamera" "10.0";
@@ -13178,13 +13178,13 @@ createNode mesh -n "cushionedChair_hpShape" -p "cushionedChair_hp";
 createNode transform -s -n "persp";
 	rename -uid "0E8381AA-463A-296B-6845-D99E88821907";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.4328057304079105 1.2179836571108975 0.54165139636707194 ;
-	setAttr ".r" -type "double3" -18.338352729394835 -67.000000000000981 0 ;
+	setAttr ".t" -type "double3" -2.5253009262421391 0.97446763997925157 0.3414364560928857 ;
+	setAttr ".r" -type "double3" -11.738352729384843 -72.199999999993821 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "80B78027-4155-13F8-5591-25800656D22C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 1.999000711226973;
+	setAttr ".coi" 2.4192725920934564;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -16190,4 +16190,4 @@ connectAttr "cushions.msg" ":defaultShaderList1.s" -na;
 connectAttr "reclinerCaps.msg" ":defaultShaderList1.s" -na;
 connectAttr "surfaceSamplingEnvelopeShader.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of cushionedChair.ma
+// End of cushionedChair.0001.ma
