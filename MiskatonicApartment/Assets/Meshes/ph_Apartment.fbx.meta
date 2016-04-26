@@ -111,6 +111,10 @@ ModelImporter:
     100206: curtainRod_mesh5
     100208: curtainRod_mesh6
     100210: curtainRod_mesh7
+    100212: curtains01_mesh
+    100214: curtains01_mesh1
+    100216: curtains01_mesh2
+    100218: curtains01_mesh3
     400000: floor_mesh
     400002: //RootNode
     400004: phCoffeeTable_mesh
@@ -217,6 +221,10 @@ ModelImporter:
     400206: curtainRod_mesh5
     400208: curtainRod_mesh6
     400210: curtainRod_mesh7
+    400212: curtains01_mesh
+    400214: curtains01_mesh1
+    400216: curtains01_mesh2
+    400218: curtains01_mesh3
     2300000: floor_mesh
     2300002: phCoffeeTable_mesh
     2300004: phRug_mesh
@@ -319,6 +327,10 @@ ModelImporter:
     2300198: curtainRod_mesh5
     2300200: curtainRod_mesh6
     2300202: curtainRod_mesh7
+    2300204: curtains01_mesh
+    2300206: curtains01_mesh1
+    2300208: curtains01_mesh2
+    2300210: curtains01_mesh3
     3300000: floor_mesh
     3300002: phCoffeeTable_mesh
     3300004: phRug_mesh
@@ -421,6 +433,10 @@ ModelImporter:
     3300198: curtainRod_mesh5
     3300200: curtainRod_mesh6
     3300202: curtainRod_mesh7
+    3300204: curtains01_mesh
+    3300206: curtains01_mesh1
+    3300208: curtains01_mesh2
+    3300210: curtains01_mesh3
     4300000: floor_mesh
     4300002: phWickerChair_mesh1
     4300004: phWickerChair_mesh2
@@ -522,6 +538,10 @@ ModelImporter:
     4300196: curtainRod_mesh5
     4300198: curtainRod_mesh6
     4300200: curtainRod_mesh7
+    4300202: curtains01_mesh
+    4300204: curtains01_mesh1
+    4300206: curtains01_mesh2
+    4300208: curtains01_mesh3
     6400000: bookStand_mesh
     6400002: ceiling_mesh
     6400004: coffeeTable_fram_mesh
@@ -588,6 +608,10 @@ ModelImporter:
     6400126: windowGlass2_mesh2
     6400128: windowGlass3_mesh
     6400130: windowGlass3_mesh1
+    6400132: curtains01_mesh
+    6400134: curtains01_mesh1
+    6400136: curtains01_mesh2
+    6400138: curtains01_mesh3
   materials:
     importMaterials: 0
     materialName: 0

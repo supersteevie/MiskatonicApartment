@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fda4615d47b478345be49438d02a2014
-timeCreated: 1461280033
+timeCreated: 1461467043
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -22,6 +22,13 @@ SubstanceImporter:
         scalar[3]: 0
         texture: {instanceID: 0}
     - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $time
       value:
         scalar[0]: 0
         scalar[1]: 0
@@ -61,13 +68,6 @@ SubstanceImporter:
             offset: {x: 0, y: 0}
         data:
           first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
@@ -101,6 +101,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -116,6 +123,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 1
         data:
@@ -124,16 +135,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -149,6 +152,10 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
           second: 0
       colors:
         data:
@@ -207,6 +214,13 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -237,13 +251,6 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 3, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -280,6 +287,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 3, y: 3}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -295,6 +309,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 1
         data:
@@ -303,16 +321,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -328,6 +338,10 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
           second: 0
       colors:
         data:
@@ -404,6 +418,13 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -431,13 +452,6 @@ SubstanceImporter:
         data:
           first:
             name: _DetailNormalMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
@@ -477,6 +491,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -492,6 +513,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 1
         data:
@@ -500,16 +525,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -525,6 +542,10 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
           second: 0
       colors:
         data:
@@ -601,6 +622,13 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -628,13 +656,6 @@ SubstanceImporter:
         data:
           first:
             name: _DetailNormalMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
@@ -674,6 +695,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -689,6 +717,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 0
         data:
@@ -697,16 +729,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -723,6 +747,10 @@ SubstanceImporter:
           first:
             name: _Mode
           second: 2
+        data:
+          first:
+            name: _Metallic
+          second: 0
       colors:
         data:
           first:
@@ -798,6 +826,13 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -828,13 +863,6 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 6, y: 3}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -871,6 +899,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 6, y: 3}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -886,6 +921,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 0
         data:
@@ -894,16 +933,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 0.23
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -920,6 +951,10 @@ SubstanceImporter:
           first:
             name: _Mode
           second: 3
+        data:
+          first:
+            name: _Metallic
+          second: 0
       colors:
         data:
           first:
@@ -970,7 +1005,7 @@ SubstanceImporter:
     prototypeName: SlateBricks
     shaderName: 
     shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+    shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 5
     inputs:
@@ -995,10 +1030,17 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
-      scale: {x: 4, y: 4}
+      scale: {x: 4, y: 6}
       generateMipmaps: 1
       generateAllOutputs: 0
       animationUpdateRate: 42
@@ -1010,14 +1052,14 @@ SubstanceImporter:
             name: _MainTex
           second:
             texture: {instanceID: 0}
-            scale: {x: 4, y: 4}
+            scale: {x: 4, y: 6}
             offset: {x: 0, y: 0}
         data:
           first:
             name: _BumpMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 4, y: 1}
+            scale: {x: 4, y: 6}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1028,17 +1070,10 @@ SubstanceImporter:
             offset: {x: 0, y: 0}
         data:
           first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 4, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
             name: _ParallaxMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
+            scale: {x: 4, y: 6}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1052,7 +1087,7 @@ SubstanceImporter:
             name: _EmissionMap
           second:
             texture: {instanceID: 0}
-            scale: {x: 4, y: 4}
+            scale: {x: 4, y: 6}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1067,6 +1102,13 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 4, y: 6}
             offset: {x: 0, y: 0}
       floats:
         data:
@@ -1083,6 +1125,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.0133
+        data:
+          first:
             name: _ZWrite
           second: 1
         data:
@@ -1091,16 +1137,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
-          second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
+          second: 1.4
         data:
           first:
             name: _OcclusionStrength
@@ -1116,6 +1154,10 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
           second: 0
       colors:
         data:
@@ -1142,6 +1184,11 @@ SubstanceImporter:
       filterMode: 1
       aniso: 1
       wrapMode: 0
+    - name: SlateBricks_height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
     textureAssignments:
     - shaderProp:
         name: _MainTex
@@ -1151,6 +1198,10 @@ SubstanceImporter:
         name: _BumpMap
       material: {instanceID: 0}
       baseUID: 3403077983
+    - shaderProp:
+        name: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 3359351684
     - shaderProp:
         name: _MetallicGlossMap
       material: {instanceID: 0}
@@ -1192,6 +1243,13 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -1222,13 +1280,6 @@ SubstanceImporter:
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 2, y: 1}
             offset: {x: 0, y: 0}
         data:
           first:
@@ -1265,6 +1316,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 2, y: 1}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -1280,6 +1338,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 1
         data:
@@ -1288,16 +1350,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -1313,6 +1367,10 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
           second: 0
       colors:
         data:
@@ -1389,6 +1447,13 @@ SubstanceImporter:
         scalar[2]: 0
         scalar[3]: 0
         texture: {instanceID: 0}
+    - name: $time
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
       offset: {x: 0, y: 0}
@@ -1416,13 +1481,6 @@ SubstanceImporter:
         data:
           first:
             name: _DetailNormalMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
           second:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
@@ -1462,6 +1520,13 @@ SubstanceImporter:
             texture: {instanceID: 0}
             scale: {x: 1, y: 1}
             offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
       floats:
         data:
           first:
@@ -1477,6 +1542,10 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
             name: _ZWrite
           second: 1
         data:
@@ -1485,16 +1554,8 @@ SubstanceImporter:
           second: 0.5
         data:
           first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
             name: _BumpScale
           second: 1
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
         data:
           first:
             name: _OcclusionStrength
@@ -1510,6 +1571,10 @@ SubstanceImporter:
         data:
           first:
             name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
           second: 0
       colors:
         data:
